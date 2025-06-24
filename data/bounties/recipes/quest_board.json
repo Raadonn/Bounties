@@ -6,19 +6,13 @@
     "   "
   ],
   "key": {
-    "P": {
-      "item": "minecraft:paper"
-    },
-    "F": {
-      "item": "minecraft:dark_oak_fence"
-    },
-    "C": {
-      "item": "minecraft:cartography_table"
-    }
+    "P": { "item": "minecraft:paper" },
+    "F": { "item": "minecraft:dark_oak_fence" },
+    "C": { "item": "minecraft:cartography_table" }
   },
   "result": {
-    "item": "minecraft:lectern",
+    "item": "minecraft:cartography_table",
     "count": 1,
-    "nbt": "{display:{Name:'{\"text\":\"Quest Board\",\"color\":\"gold\",\"italic\":false}'},CustomModelData:1001}"
+    "nbt": "{display:{Name:'{\"text\":\"Quest Board\",\"color\":\"yellow\",\"bold\":true}'},CustomModelData:1001,tag:{bounties_quest_board:1,Unstackable:\"random\"}}"
   }
 }
