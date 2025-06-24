@@ -1,5 +1,3 @@
 {
-  "values": [
-    "bounties:load"
-  ]
+  "values": ["bounties:init"]
 }
