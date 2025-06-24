@@ -1,0 +1,24 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "PFP",
+    "PCP",
+    "   "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "F": {
+      "item": "minecraft:dark_oak_fence"
+    },
+    "C": {
+      "item": "minecraft:cartography_table"
+    }
+  },
+  "result": {
+    "item": "minecraft:lectern",
+    "count": 1,
+    "nbt": "{display:{Name:'{\"text\":\"Quest Board\",\"color\":\"gold\",\"italic\":false}'},CustomModelData:1001}"
+  }
+}
