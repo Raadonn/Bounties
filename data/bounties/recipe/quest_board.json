@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C#",
+        " D "
+    ],
+    "key": {
+        "#": "minecraft:paper",
+        "C": "minecraft:cartography_table",
+        "D": "minecraft:dark_oak_fence"
+    },
+    "result": {
+        "id": "minecraft:debug_stick",
+        "count": 1
+    }
+}
