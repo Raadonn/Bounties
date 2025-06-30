@@ -18,6 +18,12 @@
         "italic": false,
         "text": "Quest post"
       },
+      "!minecraft:equippable": {},
+      "minecraft:custom_data": {
+        "bounties": {
+          "type": "quest_post"
+        }        
+      },
       "minecraft:profile": {
         "properties": [
           {
