@@ -1,18 +1,18 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#P#",
+        "#C#",
         " F "
     ],
     "key": {
         "#": "minecraft:paper",
-        "P": "minecraft:spruce_planks",
-        "F": "minecraft:spruce_fence"
+        "C": "minecraft:cartography_table",
+        "F": "minecraft:dark_oak_fence"
     },
   "result": {
     "id": "minecraft:player_head",
     "components": {
-      "minecraft:lore": [{ "color": "dark_gray", "italic": true, "text": "Place down and start questing" }],
+      "minecraft:lore": [{ "color": "blue", "italic": true, "text": "Place down and start questing" }],
       "minecraft:item_name": {
         "color": "yellow",
         "italic": false,
