@@ -1,2 +1,2 @@
 # Bounties
-The pack will revolve about having a "Bounties block" that will give quests to the players in exchange of interesting (and according to quest) rewards
+The pack adds a quest block to the game that will periodically give quests. Once those quests are completed, the player will receive bounties as rewards.
