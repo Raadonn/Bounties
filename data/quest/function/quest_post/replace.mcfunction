@@ -1,4 +1,4 @@
-# Make armorstand invisible
+# Make armorstand floaty
 data merge entity @s {NoGravity:1b}
 # Summon block_display for the bottom
 summon block_display ~-0.5 ~ ~-0.5 {Passengers:[{id:"minecraft:block_display",block_state:{Name:"minecraft:dark_oak_fence"},transformation:[1.0f,0.0f,0.0f,0.0f,0.0f,1.0f,0.0f,0.0f,0.0f,0.0f,1.0f,0.0f,0.0f,0.0f,0.0f,1.0f]}]}
