@@ -22,7 +22,7 @@
         "text": "Quest post"
       },
       "minecraft:custom_data": {
-        "bounties": {
+        "quest": {
           "type": "quest_post"
         }        
       },
