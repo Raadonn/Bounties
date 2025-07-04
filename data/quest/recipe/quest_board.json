@@ -1,24 +1,26 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#C#",
-        " F "
-    ],
-    "key": {
-        "#": "minecraft:paper",
-        "C": "minecraft:cartography_table",
-        "F": "minecraft:dark_oak_fence"
-    },
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C#",
+    " F "
+  ],
+  "key": {
+    "#": "minecraft:paper",
+    "C": "minecraft:cartography_table",
+    "F": "minecraft:dark_oak_fence"
+  },
   "result": {
-    "id": "minecraft:player_head",
+    "id": "minecraft:armor_stand",
     "components": {
-      "minecraft:lore": [{ "color": "blue", "italic": true, "text": "Place down and start questing" }],
+      "minecraft:item_model": "minecraft:player_head",
+      "minecraft:lore": [
+        { "color": "blue", "italic": true, "text": "Place down and start questing" }
+      ],
       "minecraft:item_name": {
         "color": "yellow",
         "italic": false,
         "text": "Quest post"
       },
-      "!minecraft:equippable": {},
       "minecraft:custom_data": {
         "bounties": {
           "type": "quest_post"
