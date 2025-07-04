@@ -7,11 +7,13 @@ execute at @s run setblock ~ ~ ~ minecraft:barrier
 # Place barrel
 execute at @s run setblock ~ ~1 ~ minecraft:barrel[facing=up]{CustomName:'Quest post'}
 
+execute at @s run setblock ~ ~2 ~ minecraft:air
+
 # Summon block_display of the base
 execute at @s run summon block_display ~-0.5 ~ ~-0.5 {Passengers:[{id:"minecraft:block_display",block_state:{Name:"minecraft:dark_oak_fence"},transformation:[1.0f,0.0f,0.0f,0.0f,0.0f,1.0f,0.0f,0.0f,0.0f,0.0f,1.0f,0.0f,0.0f,0.0f,0.0f,1.0f]}]}
 
 # Summon block_display of the top
-execute at @s run summon block_display ~-0.5 ~1 ~-0.5 {Passengers:[{id:"minecraft:block_display",block_state:{Name:"minecraft:cartography_table"},transformation:[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0]},{id:"minecraft:item_display",item:{id:"minecraft:flow_banner_pattern",Count:1},item_display:"none",transformation:[1.0,0.0,0.0,0.5,0.0,1.0,0.0,0.5,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0]},{id:"minecraft:item_display",item:{id:"minecraft:flow_banner_pattern",Count:1},item_display:"none",transformation:[-1.0,0.0,0.0,0.5,0.0,1.0,0.0,0.5,-0.0,0.0,-1.0,1.0,0.0,0.0,0.0,1.0]},{id:"minecraft:item_display",item:{id:"minecraft:flow_banner_pattern",Count:1},item_display:"none",transformation:[0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.5,-1.0,0.0,0.0,0.5,0.0,0.0,0.0,1.0]},{id:"minecraft:item_display",item:{id:"minecraft:flow_banner_pattern",Count:1},item_display:"none",transformation:[-0.0,0.0,-1.0,1.0,0.0,1.0,0.0,0.5,1.0,0.0,-0.0,0.5,0.0,0.0,0.0,1.0]},{id:"minecraft:block_display",block_state:{Name:"minecraft:dark_oak_pressure_plate",Properties:{powered:"false"}},transformation:[1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0]}]}
+execute at @s run summon block_display ~-0.5 ~2 ~-0.5 {Passengers:[{id:"minecraft:block_display",block_state:{Name:"minecraft:cartography_table"},transformation:[1.0,0.0,0.0,0.0,0.0,1.0,0.0,-1.0,0.0,0.0,1.0,0.0,0.0,0.5,0.5,1.0]},{id:"minecraft:item_display",item:{id:"minecraft:flow_banner_pattern",Count:1},item_display:"none",transformation:[1.0,0.0,0.0,0.5,0.0,1.0,0.0,-0.5,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0]},{id:"minecraft:item_display",item:{id:"minecraft:flow_banner_pattern",Count:1},item_display:"none",transformation:[-1.0,0.0,0.0,0.5,0.0,1.0,0.0,-0.5,-0.0,0.0,-1.0,1.0,0.0,0.0,0.0,1.0]},{id:"minecraft:item_display",item:{id:"minecraft:flow_banner_pattern",Count:1},item_display:"none",transformation:[0.0,0.0,1.0,0.0,0.0,1.0,0.0,-0.5,-1.0,0.0,0.0,0.5,0.0,0.0,0.0,1.0]},{id:"minecraft:item_display",item:{id:"minecraft:flow_banner_pattern",Count:1},item_display:"none",transformation:[-0.0,0.0,-1.0,1.0,0.0,1.0,0.0,-0.5,1.0,0.0,-0.0,0.5,0.0,0.0,0.0,1.0]},{id:"minecraft:block_display",block_state:{Name:"minecraft:dark_oak_pressure_plate",Properties:{powered:"false"}},transformation:[0.0,1.0,0.0,0.0,0.0,1.0,0.0,-1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0]}]}
 
 # Kill the armorstand
 kill @s
