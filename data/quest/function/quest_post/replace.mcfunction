@@ -4,10 +4,11 @@ data merge entity @s {NoGravity:1b,Invisible:1b,Marker:1b}
 # Place barrier
 execute at @s run setblock ~ ~ ~ minecraft:barrier
 
-execute if data block ~ ~ ~ Items[{id:"minecraft:diamond"}]
-
 # Place barrel
 execute at @s run setblock ~ ~1 ~ minecraft:barrel[facing=up]{CustomName:'Quest post'}
+
+#Checks if in that position there is a barrel with such custon name, if it does it adds a book on its first slot.
+execute if data block ~ ~1 ~ {CustomName:"Quest post"} run data modify block ~ ~1 ~ Items set value [{Slot:0b,id:"minecraft:book",Count:1b}]
 
 execute at @s run setblock ~ ~2 ~ minecraft:air
 
