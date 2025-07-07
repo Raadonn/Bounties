@@ -1,5 +1,6 @@
 {
   "values": [
-    "quest:tick"
+    "quest:tick",
+    "quest:check_quest_post"
   ]
 }
